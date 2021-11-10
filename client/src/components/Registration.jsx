@@ -110,7 +110,7 @@ const Registration = props => {
                         setEmail("")
                         setPassword("")
                         setConfirmPassword("")
-                        history.push('/dashboard')
+                        history.push('/pirates')
                     }
                 })
                 .catch(err => {
