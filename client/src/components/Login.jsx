@@ -26,7 +26,7 @@ const Login = (props) => {
                     props.load()
                     setEmail("")
                     setPassword("")
-                    history.push('/dashboard')
+                    history.push('/pirates')
                 }
             })
             .catch(err => {
